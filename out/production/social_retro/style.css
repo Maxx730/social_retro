@@ -1,0 +1,27 @@
+.root{
+    -fx-background-color:#1C2023;
+}
+
+#ui_top{
+    -fx-background-color:#393F45;
+}
+
+#setting_toggle{
+  -fx-border-radius: 0 0 0 0;
+  -fx-background-radius: 0 0 0 0;
+  -fx-background-color:#000;
+}
+
+#setting_toggle:hover{
+    -fx-background-color:#747C84;
+}
+
+#menu_toggle{
+  -fx-border-radius: 0 0 0 0;
+  -fx-background-radius: 0 0 0 0;
+  -fx-background-color:#000;
+}
+
+#menu_toggle:hover{
+    -fx-background-color:#747C84;
+}

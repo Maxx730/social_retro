@@ -1,0 +1,37 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" hgap="10" vgap="10">
+    <HBox prefWidth="800" prefHeight="50" fx:id="ui_top" GridPane.rowIndex="0">
+        <children>
+            <StackPane prefWidth="80" prefHeight="80" alignment="TOP_LEFT">
+                <Button fx:id="menu_toggle" prefHeight="70" prefWidth="50">
+
+                </Button>
+            </StackPane>
+            <StackPane prefWidth="660" prefHeight="80">
+
+            </StackPane>
+            <StackPane prefWidth="80" prefHeight="80" alignment="TOP_RIGHT">
+                <Button fx:id="setting_toggle" prefHeight="70" prefWidth="50">
+
+                </Button>
+            </StackPane>
+        </children>
+    </HBox>
+    <HBox prefWidth="800" prefHeight="750" GridPane.rowIndex="1">
+        <children>
+            <Text>
+                Testing
+            </Text>
+        </children>
+    </HBox>
+</GridPane>
